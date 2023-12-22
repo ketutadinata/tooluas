@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(74, 74, 74), rgb(180, 180, 180));
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #523ffc;
+    border-radius: 4px;
+}
+
+input,
+select,
+button {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #18742c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button.kembali {
+    background-color: rgb(171, 0, 0);
+}
+button.kembali:hover{
+    background-color: rgb(255, 0, 0);
+}
